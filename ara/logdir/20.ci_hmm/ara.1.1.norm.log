@@ -1,0 +1,32 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/usr/local/share/pocketsphinx/model/ara/bwaccumdir/ara_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/means
+-mixwfn			/usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/transition_matrices
+-varfn			/usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from /usr/local/share/pocketsphinx/model/ara/bwaccumdir/ara_buff_1
+INFO: s3mixw_io.c(117): Read /usr/local/share/pocketsphinx/model/ara/bwaccumdir/ara_buff_1/mixw_counts [36x1x1 array]
+INFO: s3tmat_io.c(118): Read /usr/local/share/pocketsphinx/model/ara/bwaccumdir/ara_buff_1/tmat_counts [12x3x4 array]
+INFO: s3gau_io.c(386): Read /usr/local/share/pocketsphinx/model/ara/bwaccumdir/ara_buff_1/gauden_counts with means with vars [36x1x1 vector arrays]
+INFO: main.c(391): Normalizing mean for n_mgau= 36, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/mixture_weights [36x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/transition_matrices [12x3x4 array]
+INFO: s3gau_io.c(228): Wrote /usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/means [36x1x1 array]
+INFO: s3gau_io.c(228): Wrote /usr/local/share/pocketsphinx/model/ara/model_parameters/ara.ci_cont/variances [36x1x1 array]
+Thu Oct 26 11:26:28 2017
+Current Overall Likelihood Per Frame = -137.580358306189
